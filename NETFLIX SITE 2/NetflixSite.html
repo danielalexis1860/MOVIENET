@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <!--<link rel="icon" type="image/svg+xml" href="/game-logo.png" />--> 
+    <link rel="stylesheet" href="Netflix.css" />  
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <title>Netflix Website</title>
+  </head>
+  <body>
+    <div class="header"> <!-- Create the nav bar inside the header class -->
+      <nav>
+        <img src="IMAGES/NETFLIX_RED_BLACK 2.png" class="netflix_logo" alt="Netflix Logo">
+        <div>
+          <button class="language-btn">English <img src="IMAGES/language_icon.png" alt="Language Icon"></button>
+          <button id="signInBtn">Sign In</button>
+        </div>
+      </nav>
+      <!-- AFTER THE NAV AND NAV BUTTON TO WRITE ON THE IMAGE AT THAT BODY -->
+      <div class="header-content">
+        <h1>Unlimited movies, TV shows, and more</h1>
+        <h3>Watch anywhere. Cancel anytime.</h3>
+        <p>Ready to watch? Enter your email to create or restart your membership.</p>
+        <form id="signupForm" class="Sign-up"> <!-- Corrected clas to class -->
+          <input type="email" id="emailInput" placeholder="Email Address" required>
+          <button type="submit">Get Started</button> <!-- Corrected Submit to submit -->
+        </form>
+      </div>
+    </div>
+    <script src="Netflix.js"></script>
+  </body>
+</html>
